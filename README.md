@@ -13,10 +13,15 @@ This repository contains all project deliverables for the Voice-Based Concept Un
 7. Project Documentation
 8. Project Demonstration
 
-How to Run
-Clone the repository.
-Install the required dependencies:
-pip install -r requirements.txt
-Start the application:
-streamlit run app.py
-Upload an audio file and view the generated analysis report.
+## How to Run
+1. Clone the repository.
+2. Install the required dependencies:
+   
+   pip install -r requirements.txt
+   
+3. Start the application:
+   
+   streamlit run app.py
+   
+4. Upload an audio file and view the generated analysis report.
+
