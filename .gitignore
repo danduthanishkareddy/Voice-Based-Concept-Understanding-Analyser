@@ -1,6 +1,6 @@
-echo venv/ > .gitignore
-echo __pycache__/ >> .gitignore
-echo .vscode/ >> .gitignore
-echo *.pyc >> .gitignore
-echo *.pdf >> .gitignore
-echo *.png >> .gitignore
+venv/
+__pycache__/
+.vscode/
+*.pyc
+*.pdf
+*.png
