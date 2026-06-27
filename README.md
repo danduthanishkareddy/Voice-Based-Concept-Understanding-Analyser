@@ -1,6 +1,6 @@
 "# Voice-Based-Concept-Understanding-Analyser" 
 
-This repository contains all project deliverables for the Voice-Based Concept Understanding Analyser developed as part of the AI/ML & GenAI project.
+This repository contains all project deliverables for the Voice-Based Concept Understanding Analyser developed as part of the Google Cloud GenAI project.
 
 ## Repository Structure
 
