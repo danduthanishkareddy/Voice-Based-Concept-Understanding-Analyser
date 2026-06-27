@@ -1,65 +1,95 @@
-Voice-Based Concept Understanding Analyser
+# 🎙️ Voice-Based Concept Understanding Analyser
 
-The Voice-Based Concept Understanding Analyser is an AI-powered web application developed as part of the Google Cloud GenAI project. It evaluates how well a user understands and explains a concept through spoken audio.
+The **Voice-Based Concept Understanding Analyser** is an AI-powered application developed as part of the **Google Cloud GenAI Project**. It evaluates a user's understanding of a concept by analyzing spoken explanations using speech recognition, semantic similarity, and audio feature analysis.
 
-The application converts speech into text, compares the explanation with a reference concept, analyzes audio features, measures fluency, calculates an understanding score, and generates a downloadable PDF report.
+---
 
-Features
+## 🚀 Features
 
-- Speech-to-text transcription
-- Semantic similarity analysis
-- Audio waveform visualization
-- Filler word and pause analysis
-- Concept understanding score generation
-- Confidence and fluency evaluation
-- Downloadable PDF report
-- Streamlit-based interactive interface
+- 🎤 Speech-to-Text using OpenAI Whisper
+- 🧠 Semantic similarity evaluation
+- 📊 Concept understanding score generation
+- 🔊 Audio feature extraction and analysis
+- 📝 Automatic PDF report generation
+- 🌐 Interactive Streamlit web interface
 
-Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Streamlit
 - OpenAI Whisper
 - Sentence Transformers
 - Librosa
-- Matplotlib
 - ReportLab
-- NLTK
+- Matplotlib
+- NumPy
 
-Repository Structure
+---
 
-- 1. Brainstorming & Ideation
-- 2. Requirement Analysis
-- 3. Project Design Phase
-- 4. Project Planning Phase
-- 5. Project Development Phase
-- 6. Project Testing
-- 7. Project Documentation
-- 8. Project Demonstration
-- Source Code
+## 📂 Repository Structure
 
-How to Run the Project
+```
+Voice-Based-Concept-Understanding-Analyser
+│
+├── 1. Brainstorming & Ideation
+├── 2. Requirement Analysis
+├── 3. Project Design Phase
+├── 4. Project Planning Phase
+├── 5. Project Development Phase
+├── 6. Project Testing
+├── 7. Project Documentation
+├── 8. Project Demonstration
+└── Source Code
+```
 
-1. Clone the repository.
+---
 
-2. Go to the Source Code folder.
+## ▶️ How to Run
 
-3. Install the required dependencies:
+### 1. Clone the repository
 
+```bash
+git clone <repository-url>
+```
+
+### 2. Navigate to the Source Code folder
+
+```bash
+cd Source\ Code
+```
+
+### 3. Install the required packages
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Start the Streamlit application:
+### 4. Run the application
 
+```bash
 streamlit run app.py
+```
 
-5. Upload an audio file.
+### 5. Open the application
 
-6. View the transcription, concept understanding score, audio analysis, and generated PDF report.
+Visit:
 
-Project Outcome
+```
+http://localhost:8501
+```
 
-This project helps students, educators, and trainers evaluate spoken concept explanations using AI-based speech processing, semantic analysis, and automated scoring.
+Upload an audio file to receive the transcript, concept understanding score, semantic analysis, and downloadable PDF report.
 
-Team Lead
+---
 
-Dandu Thanishka Reddy
+## 📈 Project Outcome
+
+This application helps educators, trainers, and students automatically assess spoken concept explanations using Artificial Intelligence, Natural Language Processing, and Speech Processing techniques.
+
+---
+
+## 👨‍💻 Author
+
+**Dandu Thanishka Reddy**
